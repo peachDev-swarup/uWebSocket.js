@@ -2,6 +2,7 @@
      "name": "@smart.js/uWebSocket.js",
      "version": "1.0.0",
      "scripts": {
+          "postinstall": "npm run build:app",
           "build:app": "tsc --project ./tsconfig.json",
           "build:cli": "tsc --project ./bin/tsconfig.json"
      },
