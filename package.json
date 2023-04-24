@@ -1,0 +1,23 @@
+{
+     "name": "@smart.js/uWebSocket.js",
+     "version": "1.0.0",
+     "scripts": {
+          "build:app": "tsc --project ./tsconfig.json",
+          "build:cli": "tsc --project ./bin/tsconfig.json"
+     },
+     "main": "dist/index.js",
+     "types": "types/index.d.ts",
+     "bin": {
+          "uWebSocket": "./dist/bin/uWebSockets.js"
+     },
+     "devDependencies": {
+          "@types/node": "18.15.11"
+     },
+     "dependencies": {
+          "commander": "10.0.1",
+          "typescript": "5.0.4",
+          "uWebSocket.js": "github:uNetworking/uWebSockets.js#v20.20.0"
+     },
+     "license": "MIT",
+     "author": "Smart Tech"
+}
